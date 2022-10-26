@@ -1,0 +1,53 @@
+ERROR:14:illegal start of expression
+ERROR:14:<identifier> expected
+ERROR:14:illegal start of expression
+ERROR:15:illegal start of expression
+ERROR:15:<identifier> expected
+ERROR:15:illegal start of expression
+ERROR:16:illegal start of expression
+ERROR:16:<identifier> expected
+ERROR:16:illegal start of expression
+ERROR:17:illegal start of expression
+ERROR:17:<identifier> expected
+ERROR:17:illegal start of expression
+ERROR:18:illegal start of expression
+ERROR:55:illegal start of type
+ERROR:61:<identifier> expected
+ERROR:61:illegal start of type
+ERROR:63:<identifier> expected
+ERROR:63:illegal start of type
+ERROR:64:<identifier> expected
+ERROR:64:illegal start of type
+ERROR:65:<identifier> expected
+ERROR:65:illegal start of type
+ERROR:66:<identifier> expected
+ERROR:66:illegal start of type
+ERROR:67:<identifier> expected
+ERROR:67:illegal start of type
+ERROR:68:<identifier> expected
+ERROR:68:illegal start of type
+ERROR:69:<identifier> expected
+ERROR:69:illegal start of type
+ERROR:70:<identifier> expected
+ERROR:70:illegal start of type
+ERROR:73:class, interface, or enum expected
+ERROR:61:package session does not exist
+ERROR:63:package out does not exist
+ERROR:64:package out does not exist
+ERROR:65:package out does not exist
+ERROR:66:package out does not exist
+ERROR:67:package out does not exist
+ERROR:68:package out does not exist
+ERROR:69:package out does not exist
+ERROR:70:package out does not exist
+ERROR:18:class SessionServletDemo is already defined in package unnamed package
+ERROR:14:cannot find symbol\n  symbol\d   class io\n  location\d package java
+ERROR:15:cannot find symbol\n  symbol\d   class util\n  location\d package java
+ERROR:16:cannot find symbol\n  symbol\d   class servlet\n  location\d package javax
+ERROR:17:cannot find symbol\n  symbol\d   class http\n  location\d package javax.servlet
+ERROR:52:cannot find symbol\n  symbol\d   variable count\n  location\d class SessionServletDemo
+ERROR:53:cannot find symbol\n  symbol\d   variable heading\n  location\d class SessionServletDemo
+ERROR:57:cannot find symbol\n  symbol\d   variable heading\n  location\d class SessionServletDemo
+ERROR:58:cannot find symbol\n  symbol\d   variable count\n  location\d class SessionServletDemo
+ERROR:58:cannot find symbol\n  symbol\d   variable count\n  location\d class SessionServletDemo
+ERROR:62:cannot find symbol\n  symbol\d   variable res\n  location\d class SessionServletDemo

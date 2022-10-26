@@ -1,0 +1,420 @@
+package java.lang;
+
+import java.io.Serializable;
+import java.io.UnsupportedEncodingException;
+import java.nio.charset.Charset;
+import java.util.Comparator;
+import java.util.Locale;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public final class String implements Serializable, Comparable<String>, CharSequence {
+
+    public static final Comparator<String> CASE_INSENSITIVE_ORDER;
+
+    public String() {
+        // compiled code
+    }
+
+    public String(char[] chars) {
+        // compiled code
+    }
+
+    public String(char[] chars, int i, int i1) {
+        // compiled code
+    }
+
+    public String(int[] ints, int i, int i1) {
+        // compiled code
+    }
+
+    public String(byte[] bytes, int i, int i1, String string) throws UnsupportedEncodingException {
+        // compiled code
+    }
+
+    public String(byte[] bytes, int i, int i1, Charset chrst) {
+        // compiled code
+    }
+
+    public String(byte[] bytes, String string) throws UnsupportedEncodingException {
+        // compiled code
+    }
+
+    public String(byte[] bytes, Charset chrst) {
+        // compiled code
+    }
+
+    public String(byte[] bytes, int i, int i1) {
+        // compiled code
+    }
+
+    public String(byte[] bytes) {
+        // compiled code
+    }
+
+    public String(StringBuffer sb) {
+        // compiled code
+    }
+
+    public String(StringBuilder sb) {
+        // compiled code
+    }
+
+    public int length() {
+        // compiled code
+    }
+
+    public boolean isEmpty() {
+        // compiled code
+    }
+
+    public char charAt(int i) {
+        // compiled code
+    }
+
+    public int codePointAt(int i) {
+        // compiled code
+    }
+
+    public int codePointBefore(int i) {
+        // compiled code
+    }
+
+    public int codePointCount(int i, int i1) {
+        // compiled code
+    }
+
+    public int offsetByCodePoints(int i, int i1) {
+        // compiled code
+    }
+
+    public void getChars(int i, int i1, char[] chars, int i2) {
+        // compiled code
+    }
+
+    public byte[] getBytes(String string) throws UnsupportedEncodingException {
+        // compiled code
+    }
+
+    public byte[] getBytes(Charset chrst) {
+        // compiled code
+    }
+
+    public byte[] getBytes() {
+        // compiled code
+    }
+
+    public boolean equals(Object o) {
+        // compiled code
+    }
+
+    public boolean contentEquals(StringBuffer sb) {
+        // compiled code
+    }
+
+    public boolean contentEquals(CharSequence cs) {
+        // compiled code
+    }
+
+    public boolean equalsIgnoreCase(String string) {
+        // compiled code
+    }
+
+    public int compareTo(String string) {
+        // compiled code
+    }
+
+    public int compareToIgnoreCase(String string) {
+        // compiled code
+    }
+
+    public boolean regionMatches(int i, String string, int i1, int i2) {
+        // compiled code
+    }
+
+    public boolean regionMatches(boolean bln, int i, String string, int i1, int i2) {
+        // compiled code
+    }
+
+    public boolean startsWith(String string, int i) {
+        // compiled code
+    }
+
+    public boolean startsWith(String string) {
+        // compiled code
+    }
+
+    public boolean endsWith(String string) {
+        // compiled code
+    }
+
+    public int hashCode() {
+        // compiled code
+    }
+
+    public int indexOf(int i) {
+        // compiled code
+    }
+
+    public int indexOf(int i, int i1) {
+        // compiled code
+    }
+
+    public int lastIndexOf(int i) {
+        // compiled code
+    }
+
+    public int lastIndexOf(int i, int i1) {
+        // compiled code
+    }
+
+    public int indexOf(String string) {
+        // compiled code
+    }
+
+    public int indexOf(String string, int i) {
+        // compiled code
+    }
+
+    public int lastIndexOf(String string) {
+        // compiled code
+    }
+
+    public int lastIndexOf(String string, int i) {
+        // compiled code
+    }
+
+    public String substring(int i) {
+        // compiled code
+    }
+
+    public String substring(int i, int i1) {
+        // compiled code
+    }
+
+    public CharSequence subSequence(int i, int i1) {
+        // compiled code
+    }
+
+    public String concat(String string) {
+        // compiled code
+    }
+
+    public String replace(char c, char c1) {
+        // compiled code
+    }
+
+    public boolean matches(String string) {
+        // compiled code
+    }
+
+    public boolean contains(CharSequence cs) {
+        // compiled code
+    }
+
+    public String replaceFirst(String string, String string1) {
+        // compiled code
+    }
+
+    public String replaceAll(String string, String string1) {
+        // compiled code
+    }
+
+    public String replace(CharSequence cs, CharSequence cs1) {
+        // compiled code
+    }
+
+    public String[] split(String string, int i) {
+        // compiled code
+    }
+
+    public String[] split(String string) {
+        // compiled code
+    }
+
+    public static String join(CharSequence cs, CharSequence[] css) {
+        // compiled code
+    }
+
+    public static String join(CharSequence cs, Iterable<? extends CharSequence> itrbl) {
+        // compiled code
+    }
+
+    public String toLowerCase(Locale locale) {
+        // compiled code
+    }
+
+    public String toLowerCase() {
+        // compiled code
+    }
+
+    public String toUpperCase(Locale locale) {
+        // compiled code
+    }
+
+    public String toUpperCase() {
+        // compiled code
+    }
+
+    public String trim() {
+        // compiled code
+    }
+
+    public String toString() {
+        // compiled code
+    }
+
+    public char[] toCharArray() {
+        // compiled code
+    }
+
+    public static String format(String string, Object[] os) {
+        // compiled code
+    }
+
+    public static String format(Locale locale, String string, Object[] os) {
+        // compiled code
+    }
+
+    public static String valueOf(Object o) {
+        // compiled code
+    }
+
+    public static String valueOf(char[] chars) {
+        // compiled code
+    }
+
+    public static String valueOf(char[] chars, int i, int i1) {
+        // compiled code
+    }
+
+    public static String copyValueOf(char[] chars, int i, int i1) {
+        // compiled code
+    }
+
+    public static String copyValueOf(char[] chars) {
+        // compiled code
+    }
+
+    public static String valueOf(boolean bln) {
+        // compiled code
+    }
+
+    public static String valueOf(char c) {
+        // compiled code
+    }
+
+    public static String valueOf(int i) {
+        // compiled code
+    }
+
+    public static String valueOf(long l) {
+        // compiled code
+    }
+
+    public static String valueOf(float f) {
+        // compiled code
+    }
+
+    public static String valueOf(double d) {
+        // compiled code
+    }
+
+    public native String intern();
+
+    public String(String string) {
+        // compiled code
+    }
+
+    @Deprecated(since = "1.1")
+    public String(byte[] bytes, int i, int i1, int i2) {
+        // compiled code
+    }
+
+    @Deprecated(since = "1.1")
+    public String(byte[] bytes, int i) {
+        // compiled code
+    }
+
+    @Deprecated(since = "1.1")
+    public void getBytes(int i, int i1, byte[] bytes, int i2) {
+        // compiled code
+    }
+
+    public IntStream chars() {
+        // compiled code
+    }
+
+    public IntStream codePoints() {
+        // compiled code
+    }
+
+    public String strip() {
+        // compiled code
+    }
+
+    public String stripLeading() {
+        // compiled code
+    }
+
+    public String stripTrailing() {
+        // compiled code
+    }
+
+    public boolean isBlank() {
+        // compiled code
+    }
+
+    public Stream<String> lines() {
+        // compiled code
+    }
+
+    public String repeat(int i) {
+        // compiled code
+    }
+}
+
+----- Classpath: ---------------------------------------------
+bootPath: /snap/netbeans/69/netbeans/enterprise/modules/ext/javaee7-endorsed/javax.annotation-api.jar:/snap/netbeans/69/netbeans/enterprise/modules/ext/javaee7-endorsed/javax.xml.soap-api.jar:/snap/netbeans/69/netbeans/enterprise/modules/ext/javaee7-endorsed/jaxb-api-osgi.jar:/snap/netbeans/69/netbeans/enterprise/modules/ext/javaee7-endorsed/jaxws-api.jar:/snap/netbeans/69/netbeans/enterprise/modules/ext/javaee7-endorsed/jsr181-api.jar:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.base/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.compiler/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.datatransfer/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.desktop/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.instrument/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.logging/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.management/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.management.rmi/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.naming/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.net.http/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.prefs/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.rmi/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.scripting/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.se/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.security.jgss/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.security.sasl/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.smartcardio/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.sql/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.sql.rowset/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.transaction.xa/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.xml/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.xml.crypto/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.accessibility/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.aot/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.attach/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.charsets/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.compiler/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.crypto.cryptoki/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.crypto.ec/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.dynalink/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.editpad/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.hotspot.agent/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.httpserver/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.internal.ed/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.internal.jvmstat/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.internal.le/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.internal.opt/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.internal.vm.ci/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.internal.vm.compiler/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.internal.vm.compiler.management/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.jartool/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.javadoc/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.jcmd/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.jconsole/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.jdeps/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.jdi/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.jdwp.agent/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.jfr/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.jlink/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.jshell/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.jsobject/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.jstatd/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.localedata/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.management/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.management.agent/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.management.jfr/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.naming.dns/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.naming.ldap/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.naming.rmi/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.net/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.pack/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.rmic/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.scripting.nashorn/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.scripting.nashorn.shell/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.sctp/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.security.auth/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.security.jgss/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.unsupported/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.unsupported.desktop/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.xml.dom/:nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/jdk.zipfs/
+classPath: /home/itlab/tomcat/lib/annotations-api.jar:/home/itlab/tomcat/lib/catalina-ant.jar:/home/itlab/tomcat/lib/catalina-ha.jar:/home/itlab/tomcat/lib/catalina-ssi.jar:/home/itlab/tomcat/lib/catalina-storeconfig.jar:/home/itlab/tomcat/lib/catalina-tribes.jar:/home/itlab/tomcat/lib/catalina.jar:/home/itlab/tomcat/lib/ecj-4.20.jar:/home/itlab/tomcat/lib/el-api.jar:/home/itlab/tomcat/lib/jakartaee-migration-1.0.1-shaded.jar:/home/itlab/tomcat/lib/jasper-el.jar:/home/itlab/tomcat/lib/jasper.jar:/home/itlab/tomcat/lib/jaspic-api.jar:/home/itlab/tomcat/lib/jsp-api.jar:/home/itlab/tomcat/lib/servlet-api.jar:/home/itlab/tomcat/lib/tomcat-api.jar:/home/itlab/tomcat/lib/tomcat-coyote.jar:/home/itlab/tomcat/lib/tomcat-dbcp.jar:/home/itlab/tomcat/lib/tomcat-i18n-cs.jar:/home/itlab/tomcat/lib/tomcat-i18n-de.jar:/home/itlab/tomcat/lib/tomcat-i18n-es.jar:/home/itlab/tomcat/lib/tomcat-i18n-fr.jar:/home/itlab/tomcat/lib/tomcat-i18n-ja.jar:/home/itlab/tomcat/lib/tomcat-i18n-ko.jar:/home/itlab/tomcat/lib/tomcat-i18n-pt-BR.jar:/home/itlab/tomcat/lib/tomcat-i18n-ru.jar:/home/itlab/tomcat/lib/tomcat-i18n-zh-CN.jar:/home/itlab/tomcat/lib/tomcat-jdbc.jar:/home/itlab/tomcat/lib/tomcat-jni.jar:/home/itlab/tomcat/lib/tomcat-util-scan.jar:/home/itlab/tomcat/lib/tomcat-util.jar:/home/itlab/tomcat/lib/tomcat-websocket.jar:/home/itlab/tomcat/lib/websocket-api.jar
+sourcePath: /home/itlab/NetBeansProjects/SessionServlet/src/java
+----- Original exception ---------------------------------------------
+java.lang.NullPointerException
+	at com.sun.tools.javac.comp.TypeEnter.ensureImportsChecked(TypeEnter.java:172)
+	at com.sun.tools.javac.comp.Enter.complete(Enter.java:627)
+	at com.sun.tools.javac.comp.Enter.main(Enter.java:587)
+	at com.sun.tools.javac.main.JavaCompiler.enterTrees(JavaCompiler.java:1042)
+	at com.sun.tools.javac.api.JavacTaskImpl.enter(JavacTaskImpl.java:345)
+	at com.sun.tools.javac.api.JavacTaskImpl.enter(JavacTaskImpl.java:282)
+	at org.netbeans.modules.java.source.parsing.JavacParser.moveToPhase(JavacParser.java:747)
+	at org.netbeans.modules.java.source.parsing.CompilationInfoImpl.toPhase(CompilationInfoImpl.java:426)
+	at org.netbeans.api.java.source.CompilationController.toPhase(CompilationController.java:88)
+	at org.netbeans.modules.java.classfile.BinaryElementOpenImpl$1.run(BinaryElementOpenImpl.java:52)
+	at org.netbeans.modules.java.classfile.BinaryElementOpenImpl$1.run(BinaryElementOpenImpl.java:49)
+	at org.netbeans.api.java.source.JavaSource$MultiTask.run(JavaSource.java:504)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callUserTask(TaskProcessor.java:586)
+	at org.netbeans.modules.parsing.api.ParserManager$UserTaskAction.run(ParserManager.java:132)
+	at org.netbeans.modules.parsing.api.ParserManager$UserTaskAction.run(ParserManager.java:116)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$2.call(TaskProcessor.java:181)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$2.call(TaskProcessor.java:178)
+	at org.netbeans.modules.masterfs.filebasedfs.utils.FileChangedManager.priorityIO(FileChangedManager.java:153)
+	at org.netbeans.modules.masterfs.providers.ProvidedExtensions.priorityIO(ProvidedExtensions.java:335)
+	at org.netbeans.modules.parsing.nb.DataObjectEnvFactory.runPriorityIO(DataObjectEnvFactory.java:118)
+	at org.netbeans.modules.parsing.impl.Utilities.runPriorityIO(Utilities.java:67)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.runUserTask(TaskProcessor.java:178)
+	at org.netbeans.modules.parsing.api.ParserManager.parse(ParserManager.java:83)
+	at org.netbeans.api.java.source.JavaSource.runUserActionTaskImpl(JavaSource.java:454)
+	at org.netbeans.api.java.source.JavaSource.runUserActionTask(JavaSource.java:425)
+	at org.netbeans.modules.java.classfile.BinaryElementOpenImpl.open(BinaryElementOpenImpl.java:49)
+	at org.netbeans.api.java.source.ui.ElementOpen.binaryOpen(ElementOpen.java:123)
+	at org.netbeans.api.java.source.ui.ElementOpen.open(ElementOpen.java:117)
+	at org.netbeans.api.java.source.ui.ElementOpen.open(ElementOpen.java:106)
+	at org.netbeans.modules.editor.java.GoToSupport$7.open(GoToSupport.java:1250)
+	at org.netbeans.modules.editor.java.GoToSupport.performGoToImpl(GoToSupport.java:285)
+	at org.netbeans.modules.editor.java.GoToSupport.access$100(GoToSupport.java:125)
+	at org.netbeans.modules.editor.java.GoToSupport$3.run(GoToSupport.java:224)
+	at org.netbeans.modules.progress.ui.RunOffEDTImpl$1.run(RunOffEDTImpl.java:146)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:278)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)

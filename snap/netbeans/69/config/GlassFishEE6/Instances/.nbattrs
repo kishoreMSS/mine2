@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="instance_1">
+        <attr name="adminPort" stringvalue="13646"/>
+        <attr name="debugPort" stringvalue="0"/>
+        <attr name="derbyStartOn" stringvalue="true"/>
+        <attr name="displayName" stringvalue="GlassFish Server (1)"/>
+        <attr name="domainname" stringvalue="domain2"/>
+        <attr name="domainsfolder" stringvalue="/home/itlab/GlassFish_Server/glassfish/domains"/>
+        <attr name="driverDeployOn" stringvalue="true"/>
+        <attr name="homefolder" stringvalue="/home/itlab/GlassFish_Server/glassfish"/>
+        <attr name="host" stringvalue="localhost"/>
+        <attr name="httphostname" stringvalue="localhost"/>
+        <attr name="httpportnumber" stringvalue="13678"/>
+        <attr name="installfolder" stringvalue="/home/itlab/GlassFish_Server"/>
+        <attr name="jvmMode" stringvalue="normalMode"/>
+        <attr name="nb73ImportFixed" stringvalue="true"/>
+        <attr name="preserveSessionsOn" stringvalue="true"/>
+        <attr name="target" stringvalue=""/>
+        <attr name="url" stringvalue="[/home/itlab/GlassFish_Server/glassfish:/home/itlab/GlassFish_Server/glassfish/domains/domain2]deployer:gfv610ee9:localhost:13646"/>
+        <attr name="use.shared.mem" stringvalue="false"/>
+        <attr name="useIDEProxyOn" stringvalue="true"/>
+        <attr name="username" stringvalue=""/>
+    </fileobject>
+</attributes>

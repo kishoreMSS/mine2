@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="instance">
+        <attr name="admin_port" stringvalue="8050"/>
+        <attr name="debug_type" stringvalue="SEL_debuggingType_socket"/>
+        <attr name="displayName" stringvalue="Apache Tomcat or TomEE"/>
+        <attr name="httpportnumber" stringvalue="8049"/>
+        <attr name="instance_id" stringvalue="tomcat90"/>
+        <attr name="monitor_enabled" stringvalue="false"/>
+        <attr name="registeredWithoutUI" stringvalue="false"/>
+        <attr name="runningCheckTimeout" stringvalue="2000"/>
+        <attr name="timestamp" stringvalue="1663066560595"/>
+        <attr name="url" stringvalue="tomcat90:home=/home/itlab/tomcat"/>
+        <attr name="username" stringvalue="admin"/>
+    </fileobject>
+</attributes>

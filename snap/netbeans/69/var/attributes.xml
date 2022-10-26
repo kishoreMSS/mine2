@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="|home|itlab|NetBeansProjects|First|src|java|MyServlet.java">
+        <attr name="execution.uri" stringvalue="/MyServlet"/>
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="|home|itlab|NetBeansProjects|First|src|main|java|MyServlet.java">
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="|home|itlab|NetBeansProjects|SessionServlet|src|java|SessionServletDemo.java">
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="|home|itlab|NetBeansProjects|WebApplication1|src|java|SessionServletDemo.java">
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="|home|itlab|NetBeansProjects|ex no 7|src|java|SessionServletDemo.java">
+        <attr name="execution.uri" stringvalue="/SessionServletDemo"/>
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="|home|itlab|NetBeansProjects|mavenproject1">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000a&lt;project-private>\u000a    &lt;properties xmlns=&quot;http://www.netbeans.org/ns/maven-properties-data/1&quot;>\u000a        &lt;org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>tomcat90:home=/home/itlab/tomcat&lt;/org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>\u000a    &lt;/properties>\u000a    &lt;open-files xmlns=&quot;http://www.netbeans.org/ns/projectui-open-files/2&quot;>\u000a        &lt;group>\u000a            &lt;file>file:/home/itlab/NetBeansProjects/mavenproject1/src/main/webapp/index.html&lt;/file>\u000a            &lt;file>file:/home/itlab/NetBeansProjects/mavenproject1/src/main/java/node/codejava/mavenproject1/MyServlet.java&lt;/file>\u000a            &lt;file>file:/home/itlab/NetBeansProjects/mavenproject1/web.xml&lt;/file>\u000a        &lt;/group>\u000a    &lt;/open-files>\u000a    &lt;editor-bookmarks xmlns=&quot;http://www.netbeans.org/ns/editor-bookmarks/2&quot; lastBookmarkId=&quot;0&quot;/>\u000a&lt;/project-private>\u000a"/>
+    </fileobject>
+    <fileobject name="|home|itlab|NetBeansProjects|mavenproject1|src|main|java|MyServlet.java">
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="|home|itlab|NetBeansProjects|project1">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000a&lt;project-private>\u000a    &lt;properties xmlns=&quot;http://www.netbeans.org/ns/maven-properties-data/1&quot;>\u000a        &lt;org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>tomcat90:home=/home/itlab/tomcat&lt;/org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>\u000a    &lt;/properties>\u000a    &lt;open-files xmlns=&quot;http://www.netbeans.org/ns/projectui-open-files/2&quot;>\u000a        &lt;group/>\u000a    &lt;/open-files>\u000a    &lt;editor-bookmarks xmlns=&quot;http://www.netbeans.org/ns/editor-bookmarks/2&quot; lastBookmarkId=&quot;0&quot;/>\u000a&lt;/project-private>\u000a"/>
+    </fileobject>
+    <fileobject name="|home|itlab|NetBeansProjects|project1|src|main|java|node|codejava|project1|MyServlet.java">
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="|home|itlab|NetBeansProjects|projectnew|src|main|java|node|codejava|projectnew|MyServlet1.java">
+        <attr name="org.netbeans.modules.web.IsServletFile" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="|home|itlab|snap|netbeans|common|69|index|s137|java|15|gensrc|jakarta|servlet|GenericServlet.java">
+        <attr name="classfile-binaryName" stringvalue="jakarta/servlet/GenericServlet"/>
+        <attr name="classfile-root" urlvalue="jar:file:/home/itlab/tomcat/lib/servlet-api.jar!/"/>
+        <attr name="classfile-sourcefile" stringvalue="GenericServlet.java"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="53A4D40BA3D808D383E25B818D02C181"/>
+    </fileobject>
+    <fileobject name="|home|itlab|snap|netbeans|common|69|index|s137|java|15|gensrc|jakarta|servlet|http|HttpServlet.java">
+        <attr name="classfile-binaryName" stringvalue="jakarta/servlet/http/HttpServlet"/>
+        <attr name="classfile-root" urlvalue="jar:file:/home/itlab/tomcat/lib/servlet-api.jar!/"/>
+        <attr name="classfile-sourcefile" stringvalue="HttpServlet.java"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="0A97B7D1E3FF80E02D1330C2507BA194"/>
+    </fileobject>
+    <fileobject name="|home|itlab|snap|netbeans|common|69|index|s137|java|15|gensrc|jakarta|servlet|http|HttpServletRequest.java">
+        <attr name="classfile-binaryName" stringvalue="jakarta/servlet/http/HttpServletRequest"/>
+        <attr name="classfile-root" urlvalue="jar:file:/home/itlab/tomcat/lib/servlet-api.jar!/"/>
+        <attr name="classfile-sourcefile" stringvalue="HttpServletRequest.java"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="07619A36D9EBC0AC8F0D04CCE0E6325E"/>
+    </fileobject>
+    <fileobject name="|home|itlab|snap|netbeans|common|69|index|s3|java|15|gensrc|java|lang|String.java">
+        <attr name="classfile-binaryName" stringvalue="java/lang/String"/>
+        <attr name="classfile-root" urlvalue="nbjrt:file:/usr/lib/jvm/java-11-openjdk-amd64/!/modules/java.base/"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="9757791B9185DE072D565A7EAB6249D6"/>
+    </fileobject>
+    <fileobject name="|home|itlab|snap|netbeans|common|69|mavencachedirs|1001806919|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/home/itlab/NetBeansProjects/project1/"/>
+    </fileobject>
+    <fileobject name="|home|itlab|snap|netbeans|common|69|mavencachedirs|1682815970|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/home/itlab/NetBeansProjects/mavenproject1/"/>
+    </fileobject>
+    <fileobject name="|home|itlab|snap|netbeans|common|69|mavencachedirs|1682815971|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/home/itlab/NetBeansProjects/mavenproject2/"/>
+    </fileobject>
+    <fileobject name="|home|itlab|snap|netbeans|common|69|mavencachedirs|566174001|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/home/itlab/NetBeansProjects/first/"/>
+    </fileobject>
+    <fileobject name="|home|itlab|snap|netbeans|common|69|mavencachedirs|595726673|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/home/itlab/NetBeansProjects/First/"/>
+    </fileobject>
+    <fileobject name="|home|itlab|snap|netbeans|common|69|mavencachedirs|663712984|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/home/itlab/NetBeansProjects/projectnew/"/>
+    </fileobject>
+    <fileobject name="|usr|lib|jvm|java-11-openjdk-amd64">
+        <attr name="J2SEPlatform.displayName" stringvalue="JDK 11"/>
+    </fileobject>
+</attributes>
